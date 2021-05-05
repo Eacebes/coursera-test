@@ -1,0 +1,17 @@
+NOTES
+---------------------
+
+COPY FROM GITHUB TO MACHINE
+
+> git clone <url>
+
+
+UPLOAD CHANGES (All need three steps)
+
+1. > git add .
+2. > git commit -m "Anong ginawa mo sa change"
+3. > git push
+
+
+GET FILES FROM THE REPOSITORY NA WALA PA SA MACHINE
+> git push
