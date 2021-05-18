@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Module 2</title>
+</head>
+<style >
+  * {
+    box-sizing: border-box;
+  }
+  h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-family: calibri;
+  }
+  .row > div {
+    border: 2px solid black;
+    margin: 0 0 10px 10px;
+    position: relative;
+    text-align: center;
+  }
+  .row {
+  width: 100%;
+  text-align: center;
+}
+.box {
+  height: 150px;
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) { 
+  .titleDiv{
+   position: relative;
+    width: 150px;
+    display: flex;
+    float: right;
+    text-align: center;
+  }
+
+  .bodyText{
+
+  }
+
+  .col-sm-6 {
+    width: 48%;
+    float: right;
+  }
+
+  .col-sm-12 {
+    width: 98%;
+    float: right;
+  }
+} 
+
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) { 
+  
+  .titleDiv{
+   position: relative;
+    width: 150px;
+    display: flex;
+    float: right;
+    text-align: center;
+  }
+ 
+  .bodyText{
+
+  }
+
+  .col-md-6 {
+    width: 48%;
+    float: right;
+  }
+
+  .col-md-12 {
+    width: 98%;
+    float: right;
+  }
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 { 
+   float: right;
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 32.5%;
+  }
+}
+
+.titleDiv {  
+  text-align: center; 
+   border: 2px solid black; 
+   height: 30px;
+   text-align: center;
+   color: black;
+   font-size: 20px; 
+   font-family: arial;
+   font-weight: bold;
+
+}
+.bodyText {
+  text-align: left;
+  padding: 20px;
+  font-family: calibri;
+  font-weight: bold;
+
+}
+
+</style>
+<body>
+<h1>Our Menu</h1>
+<div class="container-fluid">
+    <div class="row">
+      <div class="box col-lg-4 col-md-6" a style="background-color: gray;">
+        <div class="col-lg-4  titleDiv"  style="background-color: #df9f9f;">Chicken</div>
+        <p class="bodyText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nec dui nunc mattis enim. Quam lacus suspendisse faucibus interdum posuere.</p>
+     </div>
+     <div class="box col-lg-4 col-md-6" style="background-color: gray;">
+
+      <div class="col-lg-4  titleDiv"   style="color: white; background-color: #b30000;">Beef</div>
+        <p class="bodyText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nec dui nunc mattis enim. Quam lacus suspendisse faucibus interdum posuere.</p>
+     </div>
+
+      <div class="box col-lg-4 col-md-12" a style="background-color: gray;">
+
+      <div class="col-lg-4  titleDiv" style=" background-color: #ffd480; ">Sushi</div>
+       <p class="bodyText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nec dui nunc mattis enim. Quam lacus suspendisse faucibus interdum posuere.</p>
+    </div>
+  </div>
+</body>
+</html>
